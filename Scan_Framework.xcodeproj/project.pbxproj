@@ -138,40 +138,14 @@
 		C69900DA237D303800AA8268 /* Scan_Framework */ = {
 			isa = PBXGroup;
 			children = (
-				C6990165237D313900AA8268 /* CIRectangleDetector.swift */,
-				C6990169237D313900AA8268 /* EditScanCornerView.swift */,
-				C6990168237D313900AA8268 /* Error.swift */,
-				C6990166237D313900AA8268 /* Quadrilateral.swift */,
-				C6990193237D322B00AA8268 /* MultiPageScanSession.swift */,
-				C6990191237D322B00AA8268 /* MultiPageScanSessionViewController.swift */,
-				C6990192237D322B00AA8268 /* ScannedPageViewController.swift */,
-				C6990167237D313900AA8268 /* QuadrilateralView.swift */,
-				C6990198237D324300AA8268 /* CaptureDevice.swift */,
-				C6990197237D324300AA8268 /* Transformable.swift */,
-				C6990186237D31E000AA8268 /* Array+Utils.swift */,
-				C6990180237D31E000AA8268 /* AVCaptureVideoOrientation+Utils.swift */,
-				C6990183237D31E000AA8268 /* CGPoint+Utils.swift */,
-				C6990181237D31E000AA8268 /* CGAffineTransform+Utils.swift */,
-				C699017F237D31E000AA8268 /* CGRect+Utils.swift */,
-				C6990184237D31E000AA8268 /* CIImage+Utils.swift */,
-				C699019F237D32CA00AA8268 /* CaptureSessionManager.swift */,
-				C69901A2237D32CA00AA8268 /* DeviceOrientationHelper.swift */,
-				C69901AC237D32D800AA8268 /* CaptureSession.swift */,
-				C69901AD237D32D800AA8268 /* CaptureSession+Flash.swift */,
-				C69901AE237D32D800AA8268 /* CaptureSession+Focus.swift */,
-				C69901AB237D32D800AA8268 /* CaptureSession+Orientation.swift */,
-				C699019D237D32CA00AA8268 /* FocusRectangleView.swift */,
-				C699019B237D32CA00AA8268 /* PDFCreator.swift */,
-				C699019C237D32CA00AA8268 /* RectangleFeaturesFunnel.swift */,
-				C69901A1237D32CA00AA8268 /* ScannedItemRenderer.swift */,
-				C699019E237D32CA00AA8268 /* ScannerViewController.swift */,
-				C69901A0237D32CA00AA8268 /* ShutterButton.swift */,
-				C6990185237D31E000AA8268 /* UIImage+Utils.swift */,
-				C6990182237D31E000AA8268 /* UIImage+Orientation.swift */,
-				C699017C237D31CD00AA8268 /* EditScanViewController.swift */,
-				C699017B237D31CD00AA8268 /* ZoomGestureController.swift */,
+				C6E2A1C1237D59F900A706B4 /* Protocols */,
+				C6E2A1C0237D59BA00A706B4 /* MultiPage Session */,
+				C6E2A1C6237D5E6500A706B4 /* Common */,
+				C6E2A1C4237D5ADD00A706B4 /* Session */,
+				C6E2A1C5237D5B2D00A706B4 /* Extensions */,
+				C6E2A1C3237D5A8A00A706B4 /* Edit */,
+				C6E2A1C2237D5A3200A706B4 /* Scan */,
 				C699018F237D320600AA8268 /* ImageScannerController.swift */,
-				C6990164237D313900AA8268 /* VisionRectangleDetector.swift */,
 				C69900E3237D306000AA8268 /* Assests */,
 				C69900DB237D303800AA8268 /* Scan_Framework.h */,
 				C69900DC237D303800AA8268 /* Info.plist */,
@@ -196,6 +170,88 @@
 				C6990157237D310200AA8268 /* rotate@3x.png */,
 			);
 			path = Assests;
+			sourceTree = "<group>";
+		};
+		C6E2A1C0237D59BA00A706B4 /* MultiPage Session */ = {
+			isa = PBXGroup;
+			children = (
+				C6990193237D322B00AA8268 /* MultiPageScanSession.swift */,
+				C6990191237D322B00AA8268 /* MultiPageScanSessionViewController.swift */,
+				C6990192237D322B00AA8268 /* ScannedPageViewController.swift */,
+			);
+			path = "MultiPage Session";
+			sourceTree = "<group>";
+		};
+		C6E2A1C1237D59F900A706B4 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C6990198237D324300AA8268 /* CaptureDevice.swift */,
+				C6990197237D324300AA8268 /* Transformable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		C6E2A1C2237D5A3200A706B4 /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				C699019F237D32CA00AA8268 /* CaptureSessionManager.swift */,
+				C69901A2237D32CA00AA8268 /* DeviceOrientationHelper.swift */,
+				C699019D237D32CA00AA8268 /* FocusRectangleView.swift */,
+				C699019B237D32CA00AA8268 /* PDFCreator.swift */,
+				C699019C237D32CA00AA8268 /* RectangleFeaturesFunnel.swift */,
+				C69901A1237D32CA00AA8268 /* ScannedItemRenderer.swift */,
+				C699019E237D32CA00AA8268 /* ScannerViewController.swift */,
+				C69901A0237D32CA00AA8268 /* ShutterButton.swift */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
+		C6E2A1C3237D5A8A00A706B4 /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				C699017C237D31CD00AA8268 /* EditScanViewController.swift */,
+				C699017B237D31CD00AA8268 /* ZoomGestureController.swift */,
+			);
+			path = Edit;
+			sourceTree = "<group>";
+		};
+		C6E2A1C4237D5ADD00A706B4 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				C69901AC237D32D800AA8268 /* CaptureSession.swift */,
+				C69901AD237D32D800AA8268 /* CaptureSession+Flash.swift */,
+				C69901AE237D32D800AA8268 /* CaptureSession+Focus.swift */,
+				C69901AB237D32D800AA8268 /* CaptureSession+Orientation.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		C6E2A1C5237D5B2D00A706B4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C6990186237D31E000AA8268 /* Array+Utils.swift */,
+				C6990180237D31E000AA8268 /* AVCaptureVideoOrientation+Utils.swift */,
+				C6990183237D31E000AA8268 /* CGPoint+Utils.swift */,
+				C6990181237D31E000AA8268 /* CGAffineTransform+Utils.swift */,
+				C699017F237D31E000AA8268 /* CGRect+Utils.swift */,
+				C6990184237D31E000AA8268 /* CIImage+Utils.swift */,
+				C6990185237D31E000AA8268 /* UIImage+Utils.swift */,
+				C6990182237D31E000AA8268 /* UIImage+Orientation.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C6E2A1C6237D5E6500A706B4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C6990165237D313900AA8268 /* CIRectangleDetector.swift */,
+				C6990169237D313900AA8268 /* EditScanCornerView.swift */,
+				C6990168237D313900AA8268 /* Error.swift */,
+				C6990166237D313900AA8268 /* Quadrilateral.swift */,
+				C6990167237D313900AA8268 /* QuadrilateralView.swift */,
+				C6990164237D313900AA8268 /* VisionRectangleDetector.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
