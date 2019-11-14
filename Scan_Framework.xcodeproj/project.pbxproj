@@ -26,7 +26,6 @@
 		C699016D237D313A00AA8268 /* QuadrilateralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6990167237D313900AA8268 /* QuadrilateralView.swift */; };
 		C699016E237D313A00AA8268 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6990168237D313900AA8268 /* Error.swift */; };
 		C699016F237D313A00AA8268 /* EditScanCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6990169237D313900AA8268 /* EditScanCornerView.swift */; };
-		C699017A237D318D00AA8268 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6990172237D318D00AA8268 /* Localizable.strings */; };
 		C699017D237D31CD00AA8268 /* ZoomGestureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C699017B237D31CD00AA8268 /* ZoomGestureController.swift */; };
 		C699017E237D31CD00AA8268 /* EditScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C699017C237D31CD00AA8268 /* EditScanViewController.swift */; };
 		C6990187237D31E000AA8268 /* CGRect+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C699017F237D31E000AA8268 /* CGRect+Utils.swift */; };
@@ -79,13 +78,6 @@
 		C6990167237D313900AA8268 /* QuadrilateralView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuadrilateralView.swift; sourceTree = "<group>"; };
 		C6990168237D313900AA8268 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		C6990169237D313900AA8268 /* EditScanCornerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditScanCornerView.swift; sourceTree = "<group>"; };
-		C6990173237D318D00AA8268 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = "../../../Documents/WeScan-develop-2/WeScan/de.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		C6990174237D318D00AA8268 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "../../../Documents/WeScan-develop-2/WeScan/pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		C6990175237D318D00AA8268 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = "../../../Documents/WeScan-develop-2/WeScan/fr.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		C6990176237D318D00AA8268 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "../../../Documents/WeScan-develop-2/WeScan/en.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		C6990177237D318D00AA8268 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "../../../Documents/WeScan-develop-2/WeScan/zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		C6990178237D318D00AA8268 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "../../../Documents/WeScan-develop-2/WeScan/zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		C6990179237D318D00AA8268 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = "../../../Documents/WeScan-develop-2/WeScan/it.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		C699017B237D31CD00AA8268 /* ZoomGestureController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomGestureController.swift; sourceTree = "<group>"; };
 		C699017C237D31CD00AA8268 /* EditScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditScanViewController.swift; sourceTree = "<group>"; };
 		C699017F237D31E000AA8268 /* CGRect+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Utils.swift"; sourceTree = "<group>"; };
@@ -146,7 +138,6 @@
 		C69900DA237D303800AA8268 /* Scan_Framework */ = {
 			isa = PBXGroup;
 			children = (
-				C6990172237D318D00AA8268 /* Localizable.strings */,
 				C6990165237D313900AA8268 /* CIRectangleDetector.swift */,
 				C6990169237D313900AA8268 /* EditScanCornerView.swift */,
 				C6990168237D313900AA8268 /* Error.swift */,
@@ -286,7 +277,6 @@
 				C6990161237D310200AA8268 /* rotate.png in Resources */,
 				C6990162237D310200AA8268 /* flash.png in Resources */,
 				C699015F237D310200AA8268 /* flash@3x.png in Resources */,
-				C699017A237D318D00AA8268 /* Localizable.strings in Resources */,
 				C6990159237D310200AA8268 /* flashUnavailable@2x.png in Resources */,
 				C6990158237D310200AA8268 /* flash@2x.png in Resources */,
 				C699015E237D310200AA8268 /* rotate@2x.png in Resources */,
@@ -344,23 +334,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		C6990172237D318D00AA8268 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C6990173237D318D00AA8268 /* de */,
-				C6990174237D318D00AA8268 /* pt-PT */,
-				C6990175237D318D00AA8268 /* fr */,
-				C6990176237D318D00AA8268 /* en */,
-				C6990177237D318D00AA8268 /* zh-Hant */,
-				C6990178237D318D00AA8268 /* zh-Hans */,
-				C6990179237D318D00AA8268 /* it */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C69900DE237D303800AA8268 /* Debug */ = {
